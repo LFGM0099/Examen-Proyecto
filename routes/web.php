@@ -6,7 +6,7 @@ use App\Http\Controllers\AutosController;
 use Illuminate\Support\Facades\Route;
 
 
-// Route::get('/', [AutoController::class, 'index']) -> name('autos.index');
+ Route::get('/', [AutosController::class, 'index']) -> name('autos.index');
 
 // Route::get('/autos/create', [AutoController::class, 'create']) -> name('autos.create');
 
